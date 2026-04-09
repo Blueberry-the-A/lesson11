@@ -1,0 +1,119 @@
+@import "./base.css";
+@import "./container.css";
+
+.title{
+    text-align:center;
+    font-size: 25px;
+    font-weight: 800;
+    color: blue;
+}
+
+.sub-title{
+    text-align:center;
+    font-size:20px;
+    font-weight: 600;
+    color:rgb(0, 124, 124);
+}
+
+.table_class{
+    width:1100px;
+    border-radius:8px;
+    overflow: hidden;
+}
+
+.choose_plan{
+    font-size:22px;
+    color:white;
+    background-color: rgba(120, 135, 171);
+}
+
+.starting_class{
+    color:white;
+    text-align: center;
+    background-color: rgba(79, 98, 142);
+}
+
+.plan_title{
+    font-size:20px;
+    font-weight:700;
+}
+
+.plan_price{
+    font-size:30px;
+    font-weight:800;
+    margin:0;
+}
+
+.sub-title_per-month{
+    font-size:24px;
+    font-weight:650;
+    margin:0;
+    margin-bottom:20px;
+}
+
+.econom_class{
+    color:white;
+    text-align: center;
+    background-color: rgb(46, 65, 114);
+}
+
+.standart_class{
+    color:white;
+    text-align: center;
+    background-color: rgba(22, 41, 85);
+}
+
+.professional_class{
+    color:white;
+    text-align: center;
+    background-color: rgba(6, 21, 57);
+}
+
+.darkgrey_bar{
+    text-align: center;
+    height:40px;
+    font-size:20px;
+    background-color: rgba(219, 219, 219);
+}
+
+.lightgrey_bar{
+    text-align: center;
+    height:40px;
+    font-size:20px;
+    background-color:rgba(231, 231, 231);
+}
+
+.white_bar{
+    text-align: center;
+    height:40px;
+    font-size:20px;
+    background-color:rgba(243, 243, 243);
+}
+
+.grey_bar{
+    text-align: center;
+    height:40px;
+    font-size:20px;
+    background-color:rgba(236, 236, 236);
+}
+
+.title_bar{
+    text-align:left;
+    padding-left:30px;
+}
+
+.button_row{
+    text-align:center;
+}
+
+.start_button{
+    font-size:16px;
+    font-weight:200;
+    transition: background-color 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+}
+
+.start_button:hover{
+    transform:scale(1.05);
+    background-color:darkgrey ;
+}
